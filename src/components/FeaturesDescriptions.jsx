@@ -57,9 +57,9 @@ const HeartDiseaseFeatures = () => {
       description: "The maximum heart rate achieved during exercise.",
       image: "/assets/featuresDescriptions/HR_Zone_Graphic_030722.png",
       ranges: [
-        "Normal: Above 85% of predicted maximum heart rate",
-        "Abnormal: 70% to 85% of predicted maximum heart rate",
-        "Severe: Below 70% of predicted maximum heart rate"
+        "Normal: 60% to 85% of your age-predicted maximum heart rate (which is calculated as 220 minus your age)",
+        "Abnormal: 50% to 59% of your age-predicted maximum heart rate",
+        "Severe: Below 50% of your age-predicted maximum heart rate"
       ]
     },
     {
