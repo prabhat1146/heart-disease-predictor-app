@@ -9,7 +9,7 @@ import FeatureDescriptions from './components/FeaturesDescriptions'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b  text-gray-900">
+    <div className="min-h-screen w-full bg-gradient-to-b  text-gray-900">
       <Header />
       <main className="flex flex-col items-center p-4">
         <PredictionForm />

@@ -115,12 +115,12 @@ const HeartDiseaseFeatures = () => {
   ];
 
   return (
-    <div className="container mx-auto p-8 bg-gray-50 min-h-screen">
+    <div className="container mx-auto p-1 bg-gray-50 min-h-screen">
       <h1 className="text-4xl font-extrabold text-center mb-8 text-blue-700">Heart Disease Risk Features</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {features.map((feature, index) => (
-          <div key={index} className="bg-white shadow-sm rounded-lg p-6 border border-gray-50 flex flex-row space-x-6 md:flex-row items-start space-y-6 md:space-y-0 md:space-x-6">
-            <img src={feature.image} alt={feature.title} className="w-36  md:w-36  object-cover rounded-lg border border-gray-50" />
+          <div key={index} className="bg-white shadow-sm rounded-lg p-6 border border-gray-50 flex flex-col space-x-6 md:flex-row items-start space-y-6 md:space-y-0 md:space-x-6">
+            <img src={feature.image} alt={feature.title} className="h-24 mx-auto  md:h-36  object-cover rounded-lg border border-gray-50" />
             <div className="flex-1">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">{feature.title}</h2>
               <p className="mb-4 text-lg text-gray-600">{feature.description}</p>

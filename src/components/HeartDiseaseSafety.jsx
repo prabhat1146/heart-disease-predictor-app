@@ -11,10 +11,13 @@ const HeartDiseaseSafety = () => {
         "Avoid Added Sugars: Excess sugar intake can lead to weight gain and increased risk of heart disease. Read labels to avoid high sugar content in foods and beverages."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Balanced+Diet",
-        "https://via.placeholder.com/150?text=Healthy+Fats",
-        "https://via.placeholder.com/150?text=Limit+Salt"
-      ]
+        "/assets/stay-healthy-tips/healthy-diet-food-pyramid.png",
+        "/assets/stay-healthy-tips/eating-healthy.jpg",
+        "/assets/stay-healthy-tips/healthy-diet.jpeg",
+        "/assets/stay-healthy-tips/healty-diet.png"
+    
+        
+              ]
     },
     {
       title: "Exercise Regularly",
@@ -24,9 +27,10 @@ const HeartDiseaseSafety = () => {
         "Consistency: Regular physical activity helps maintain a healthy weight, lowers blood pressure, and improves cholesterol levels."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Walking",
-        "https://via.placeholder.com/150?text=Running",
-        "https://via.placeholder.com/150?text=Cycling"
+        "/assets/stay-healthy-tips/exercise.jpeg",
+        "/assets/stay-healthy-tips/exercise.jpg",
+        "/assets/stay-healthy-tips/exercise-food.jpg",
+        "/assets/stay-healthy-tips/exercise.webp"
       ]
     },
     {
@@ -36,8 +40,8 @@ const HeartDiseaseSafety = () => {
         "Limit Alcohol: Excessive alcohol intake can lead to high blood pressure, heart failure, and stroke. Moderation is key; for women, this means up to one drink per day, and for men, up to two drinks per day."
       ],
       images: [
-        "https://via.placeholder.com/150?text=No+Smoking",
-        "https://via.placeholder.com/150?text=Limit+Alcohol"
+        "/assets/stay-healthy-tips/avoid-smoking-alocohol.jpg",
+        "/assets/stay-healthy-tips/no-drugs-smoking-and-alcohol-sign-vector-illustration-EKR74C.jpg"
       ]
     },
     {
@@ -47,10 +51,10 @@ const HeartDiseaseSafety = () => {
         "Hobbies and Leisure: Pursue hobbies or activities that bring joy and relaxation, such as reading, gardening, or spending time with loved ones."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Meditation",
-        "https://via.placeholder.com/150?text=Gardening",
-        "https://via.placeholder.com/150?text=Reading"
-      ]
+        "/assets/stay-healthy-tips/stress-management-vector-infographic-template-active-lifestyle-poster-booklet-page-concept-design-with-flat-illustrations-relaxing-advertising-fl-2AP6M86.jpg",
+        "/assets/stay-healthy-tips/stress-management.png",
+        
+              ]
     },
     {
       title: "Regular Health Check-ups",
@@ -59,9 +63,8 @@ const HeartDiseaseSafety = () => {
         "Routine Screenings: Schedule regular visits with your healthcare provider for comprehensive evaluations and follow their recommendations for preventive care."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Blood+Pressure",
-        "https://via.placeholder.com/150?text=Cholesterol",
-        "https://via.placeholder.com/150?text=Blood+Sugar"
+        "/assets/stay-healthy-tips/179518-Why-should-one-go-for-a-regular-health-checkup_.jpg",
+        "/assets/stay-healthy-tips/depositphotos_443067784-stock-illustration-the-doctor-consults-the-patient.jpg",
       ]
     },
     {
@@ -71,8 +74,9 @@ const HeartDiseaseSafety = () => {
         "Waist Circumference: Monitor waist size as excess abdominal fat is linked to higher heart disease risk. Men should aim for a waist circumference of less than 40 inches, and women should aim for less than 35 inches."
       ],
       images: [
-        "https://via.placeholder.com/150?text=BMI",
-        "https://via.placeholder.com/150?text=Waist+Circumference"
+       "/assets/stay-healthy-tips/healthy-weight-1.jpeg",
+       "/assets/stay-healthy-tips/healthy-wight-2.jpeg",
+       
       ]
     },
     {
@@ -83,9 +87,9 @@ const HeartDiseaseSafety = () => {
         "Diabetes Management: Monitor blood sugar levels and follow dietary and medical recommendations to control diabetes."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Hypertension",
-        "https://via.placeholder.com/150?text=Cholesterol",
-        "https://via.placeholder.com/150?text=Diabetes"
+        "/assets/stay-healthy-tips/medical-condition-2.jpg",
+        "/assets/stay-healthy-tips/medical-condition-3.webp",
+        "/assets/stay-healthy-tips/medical-condition-1.svg",
       ]
     },
     {
@@ -95,8 +99,9 @@ const HeartDiseaseSafety = () => {
         "Recognize Symptoms: Be aware of symptoms of heart disease, such as chest pain, shortness of breath, or unusual fatigue, and seek medical attention promptly if they occur."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Heart+Disease+Risks",
-        "https://via.placeholder.com/150?text=Symptoms"
+       "/assets/stay-healthy-tips/stay-enformed-about-heart-disease-1.png",
+       "/assets/stay-healthy-tips/stay-enformed-about-heart-disease-3.webp",
+       "/assets/stay-healthy-tips/stay-enformed-about-heart-disease-2.jpg",
       ]
     },
     {
@@ -106,8 +111,8 @@ const HeartDiseaseSafety = () => {
         "Sleep Hygiene: Maintain a regular sleep schedule, create a comfortable sleep environment, and avoid stimulants like caffeine close to bedtime."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Quality+Sleep",
-        "https://via.placeholder.com/150?text=Sleep+Hygiene"
+       "/assets/stay-healthy-tips/sleep-1.webp",
+       "/assets/stay-healthy-tips/sleep-2.webp",
       ]
     },
     {
@@ -117,17 +122,19 @@ const HeartDiseaseSafety = () => {
         "Limit Sugary Drinks: Avoid excessive consumption of sugary or caffeinated beverages, which can contribute to weight gain and increased heart disease risk."
       ],
       images: [
-        "https://via.placeholder.com/150?text=Hydration",
-        "https://via.placeholder.com/150?text=Limit+Sugary+Drinks"
+       "/assets/stay-healthy-tips/Stay Hydrated-1.jpg",
+       "/assets/stay-healthy-tips/Stay Hydrated-2.webp",
+       "/assets/stay-healthy-tips/Stay Hydrated-3.jpeg",
+       "/assets/stay-healthy-tips/Stay Hydrated-4.png",
       ]
     }
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-1">
       <h1 className="text-3xl font-bold mb-8">Heart Disease Safety Tips</h1>
       {tips.map((tip, index) => (
-        <div key={index} className="mb-6 p-4 border border-gray-100 rounded-lg shadow-sm">
+        <div key={index} className="mb-6 p-2 border border-gray-100 rounded-lg shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">{tip.title}</h2>
           <ul className="list-disc pl-5 space-y-3 mb-4 text-lg">
             {tip.points.map((point, i) => (
@@ -140,7 +147,7 @@ const HeartDiseaseSafety = () => {
                 key={i}
                 src={image}
                 alt={`${tip.title}  ${i + 1}`}
-                className="w-24 h-24 object-cover rounded-lg border border-gray-50"
+                className=" h-24 object-cover rounded-lg border border-gray-50"
               />
             ))}
           </div>
